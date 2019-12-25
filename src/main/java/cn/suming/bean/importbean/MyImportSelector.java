@@ -26,6 +26,7 @@ public class MyImportSelector implements ImportSelector, EnvironmentAware, Resou
     private Environment environment;
     private ResourceLoader resourceLoader;
     private static final String PATH = "MET-INF/services/spring.factories";
+    private static final String SEPARATOR="=";
 
     @Override
     public void setEnvironment(Environment environment) {
@@ -50,7 +51,6 @@ public class MyImportSelector implements ImportSelector, EnvironmentAware, Resou
             beanNames.add(className);
         }
         return beanNames.toArray(new String[]{});
-
     }
 
     private String parseFactories() {
@@ -62,7 +62,7 @@ public class MyImportSelector implements ImportSelector, EnvironmentAware, Resou
             while ((line = reader.readLine()) != null) {
                 // 读取文件中的每一行
                 // spi 文件需要严格按照 alias=className 格式编写
-                String[] aliasAndClassName = line.split("=");
+                String[] aliasAndClassName = line.split(SEPARATOR);
                 // 任何不是 alias=className 格式的行都直接过滤掉
                 if (aliasAndClassName == null || aliasAndClassName.length != 2) {
                     break;

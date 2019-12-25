@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57f83d26-b644-4c8f-b801-b370b49b028a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/suming/bean/condition/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/suming/bean/condition/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/suming/bean/condition/RainBow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/suming/bean/condition/RainBowCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/suming/bean/condition/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/suming/config/condition/ConditionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/condition/ConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/suming/bean/importbean/MyImportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/suming/bean/importbean/MyImportSelector.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Soft/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VShTFHIN8efCAStjzHZZuZhBde" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/MET-INF/services" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ConditionTest.test">
+    <configuration name="ImportBeanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.importbean.ImportBeanTest" />
+      <module name="java-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.importbean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValueAnnoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.valueanno.ValueAnnoTest" />
+      <module name="java-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.valueanno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.condition" />
+      <option name="MAIN_CLASS_NAME" value="test.condition.ConditionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiBeanTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.multibean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.multibean" />
+      <option name="MAIN_CLASS_NAME" value="test.multibean.MultiBeanTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleBeanTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.simplebean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.simplebean" />
+      <option name="MAIN_CLASS_NAME" value="test.simplebean.SimpleBeanTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConditionTest.test" />
+        <item itemvalue="JUnit.MultiBeanTest.test" />
+        <item itemvalue="Application.ImportBeanTest" />
+        <item itemvalue="Application.ValueAnnoTest" />
+        <item itemvalue="JUnit.SimpleBeanTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57f83d26-b644-4c8f-b801-b370b49b028a" name="Default Changelist" comment="" />
+      <created>1577252409312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577252409312</updated>
+      <workItem from="1577252414382" duration="4751000" />
+      <workItem from="1577257685845" duration="15557000" />
+      <workItem from="1577276477733" duration="360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
